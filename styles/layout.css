@@ -13,6 +13,17 @@ main{
         max-width: 33rem;    
         margin-left: auto;
     }
+
+    & .back{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-bottom: 1.5rem;
+    }
+    & h1{
+        font: var(--text-h1);
+        margin-bottom: .5rem;
+    }
 }
 aside{
     padding: 4rem;
@@ -20,5 +31,19 @@ aside{
 
     & .aside-container{
         max-width: 31rem;
+
+        & > img{
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+    & h2{
+        font: var(--text-h2);
+        margin-bottom: .5rem;
+
+        & span{
+            color:var(--text-highlight);
+        }
     }
 }
