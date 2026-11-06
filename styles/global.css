@@ -18,6 +18,10 @@
     --surface-primary:#FFFFFF;
     --surface-secondary:#FEE7D6;
     --semantic-error: #DC2626;
+
+    /* CORES CRIADAS PARA SUPRIR E QUEBRAR O GALHO PRA NAO ABRIR O FIGMA */
+    --stroke-default:#aaa;
+    --stroke-highlight:#d44;
 }
 body{
     overflow: hidden;
